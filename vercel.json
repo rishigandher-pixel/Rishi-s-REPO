@@ -3,21 +3,5 @@
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
   "installCommand": "npm install",
-  "regions": ["iad1"],
-  "env": {
-    "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY": "@next-public-clerk-publishable-key",
-    "CLERK_SECRET_KEY": "@clerk-secret-key",
-    "NEXT_PUBLIC_CLERK_SIGN_IN_URL": "/sign-in",
-    "NEXT_PUBLIC_CLERK_SIGN_UP_URL": "/sign-up",
-    "NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL": "/dashboard",
-    "NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL": "/dashboard",
-    "STRIPE_SECRET_KEY": "@stripe-secret-key",
-    "NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY": "@next-public-stripe-publishable-key",
-    "STRIPE_WEBHOOK_SECRET": "@stripe-webhook-secret",
-    "STRIPE_STARTER_PRICE_ID": "@stripe-starter-price-id",
-    "STRIPE_PRO_PRICE_ID": "@stripe-pro-price-id",
-    "DATABASE_URL": "@database-url",
-    "DATABASE_AUTH_TOKEN": "@database-auth-token",
-    "OPENAI_API_KEY": "@openai-api-key"
-  }
+  "regions": ["iad1"]
 }
