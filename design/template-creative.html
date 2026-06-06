@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Proposal Template</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Outfit', sans-serif; }
+        .gradient-text {
+            background: linear-gradient(90deg, #F472B6, #8B5CF6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #F472B6, #8B5CF6);
+        }
+        @media print {
+            .no-print { display: none; }
+            body { background: white; }
+        }
+    </style>
+</head>
+<body class="bg-black p-4 md:p-12">
+
+    <!-- Proposal Container -->
+    <div class="max-w-4xl mx-auto bg-white rounded-[2rem] overflow-hidden min-h-[1100px] flex flex-col shadow-[0_0_50px_rgba(139,92,246,0.3)]">
+        
+        <!-- Hero Section -->
+        <header class="gradient-bg p-16 text-white relative">
+            <div class="absolute top-0 right-0 p-8 opacity-20">
+                <svg width="200" height="200" viewBox="0 0 100 100" fill="white">
+                    <circle cx="50" cy="50" r="40" />
+                </svg>
+            </div>
+            <div class="relative z-10">
+                <div class="text-sm font-bold uppercase tracking-[0.3em] mb-4">Hello! This is your</div>
+                <h1 class="text-6xl font-extrabold leading-tight mb-8">Brand <br>Evolution</h1>
+                <div class="flex items-center space-x-4">
+                    <div class="w-12 h-1 bg-white"></div>
+                    <div class="text-lg font-medium">For: Spark Digital Agency</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="p-16 flex-grow">
+            
+            <section class="mb-16">
+                <h2 class="text-4xl font-extrabold mb-8 gradient-text">The Vision</h2>
+                <div class="text-2xl text-slate-800 leading-snug font-semibold">
+                    We aren't just making a logo. We're building a visual universe that captivates your audience and demands attention.
+                </div>
+            </section>
+
+            <section class="mb-16 grid md:grid-cols-3 gap-8">
+                <div class="space-y-4">
+                    <div class="text-5xl font-extrabold text-slate-100 italic">01.</div>
+                    <h3 class="text-xl font-bold text-slate-900">Vibe Check</h3>
+                    <p class="text-slate-500 text-sm">Deep dive into your brand's soul, energy, and competitive landscape.</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="text-5xl font-extrabold text-slate-100 italic">02.</div>
+                    <h3 class="text-xl font-bold text-slate-900">The Spark</h3>
+                    <p class="text-slate-500 text-sm">Rapid prototyping of 3 distinct visual directions with moodboards.</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="text-5xl font-extrabold text-slate-100 italic">03.</div>
+                    <h3 class="text-xl font-bold text-slate-900">Polished</h3>
+                    <div class="text-slate-500 text-sm">Refining the chosen path into a full brand identity system.</div>
+                </div>
+            </section>
+
+            <section class="mb-16 bg-slate-50 p-8 rounded-[1.5rem] border-2 border-dashed border-slate-200">
+                <h3 class="text-xl font-bold mb-6">The Investment</h3>
+                <div class="space-y-4">
+                    <div class="flex justify-between items-center">
+                        <span class="text-slate-600">Full Visual Identity</span>
+                        <span class="font-bold text-xl">$5,000</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-slate-600">Social Media Kit</span>
+                        <span class="font-bold text-xl">$1,500</span>
+                    </div>
+                    <div class="pt-4 border-t border-slate-200 flex justify-between items-center">
+                        <span class="font-extrabold text-2xl">Total</span>
+                        <span class="font-extrabold text-3xl gradient-text">$6,500</span>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="px-16 py-12 flex flex-col md:flex-row justify-between items-center bg-slate-50">
+            <div class="mb-6 md:mb-0">
+                <div class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-2">Ready to start?</div>
+                <div class="text-lg font-extrabold text-slate-900 underline decoration-purple-500 decoration-4">hello@creativebox.com</div>
+            </div>
+            <div class="no-print">
+                <button class="gradient-bg text-white px-10 py-4 rounded-full font-extrabold shadow-xl hover:scale-105 transition transform">Let's Do This! ⚡️</button>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
